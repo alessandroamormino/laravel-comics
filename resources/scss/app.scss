@@ -1,5 +1,19 @@
 @import '~bootstrap/scss/bootstrap';
 
+// banner
+.banner{
+  background-color: #0482F9;
+  .container{
+    display: flex;
+    justify-content: flex-end;
+    gap: 4em;
+    color: #fff;
+    font-size: .8em;
+
+    padding: .3em 0;
+  }
+}
+
 // header
 header{
   nav{

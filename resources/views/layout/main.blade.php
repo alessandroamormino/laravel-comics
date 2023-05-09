@@ -10,6 +10,8 @@
     @vite('resources/js/app.js')
 </head>
 <body>
+    {{-- includo il banner --}}
+    @include('partials/banner')
     {{-- includo la header dalle partials--}}
     @include('partials/header')
 </body>
