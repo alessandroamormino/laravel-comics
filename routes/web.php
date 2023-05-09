@@ -16,16 +16,16 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     $links = [
-        'Characters',
-        'Comics',
-        'Movies',
-        'Tv',
-        'Games',
+        'characters',
+        'comics',
+        'movies',
+        'tv',
+        'games',
         'collectibles',
-        'Videos',
-        'Fans',
-        'News',
-        'Shop'
+        'videos',
+        'fans',
+        'news',
+        'shop'
     ];
 
     $comics = config('comics');
