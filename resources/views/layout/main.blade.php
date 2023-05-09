@@ -9,8 +9,8 @@
     <!-- Styles -->
     @vite('resources/js/app.js')
 </head>
-
 <body>
-    
+    {{-- includo la header dalle partials--}}
+    @include('partials/header')
 </body>
 </html>
