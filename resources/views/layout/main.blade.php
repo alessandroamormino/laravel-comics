@@ -16,5 +16,7 @@
     @include('partials/header')
     {{-- includo il content --}}
     @yield('content')
+    {{-- includo il footer --}}
+    @include('partials/footer')
 </body>
 </html>
