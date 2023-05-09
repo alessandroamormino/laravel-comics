@@ -24,5 +24,8 @@
         <button class="btn btn-primary rounded-0">Load more</button>
       </div>
     </div>
+    {{-- includo la sezione buy --}}
+    @include('partials/buy')
+
   </main>
 @endsection
