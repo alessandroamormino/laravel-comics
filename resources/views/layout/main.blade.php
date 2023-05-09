@@ -14,5 +14,7 @@
     @include('partials/banner')
     {{-- includo la header dalle partials--}}
     @include('partials/header')
+    {{-- includo il content --}}
+    @yield('content')
 </body>
 </html>
