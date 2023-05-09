@@ -71,7 +71,7 @@ header{
 }
 
 // main
-main{
+main.home{
   background-color: #1C1C1C;
   
   color: #fff;
@@ -122,6 +122,9 @@ main{
     }
   }
   .icons-container{
+    position: relative;
+    z-index: 1;
+    // position
     background-color: #0482F9;
     padding: 3em 0;
     .icons{
@@ -138,6 +141,48 @@ main{
             width: 50px;
           }
         }
+      }
+    }
+  }
+}
+
+main.comics{
+  .separator{
+    background-color: #0482F9;
+    height: 80px;
+  }
+  .container{
+    position: relative;
+    // position
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    .thumb{
+      position: absolute;
+      top: -350px;
+      left: 0;
+  
+      img{
+        height: 300px;
+      }
+    }
+    .left{
+      .price{
+        display: flex;
+        justify-content: space-between;
+        // flex
+        width: 300px;
+        background-color: #56BA59;
+        border-radius: 10px;
+        padding: .5em 2em;
+      }
+      .paragraph{
+        padding: 2em 0;
+      }
+    }
+    .right{
+      img{
+        width: 200px;
       }
     }
   }
@@ -200,6 +245,7 @@ footer{
       position: absolute;
       right: 0;
       top: -40%;
+      z-index: 0;
     }
   
     .copy{

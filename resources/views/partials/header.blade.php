@@ -7,7 +7,11 @@
       <div class="nav-center">
         <ul>
           @foreach($links as $link)
-            <li><a href="#">{{$link}}</a></li>
+            {{-- @if($link='Comics')
+              <li><a href="{{route('comics')}}">{{$link}}</a></li>
+            @else --}}
+              <li><a href="#">{{$link}}</a></li>
+            {{-- @endif --}}
           @endforeach
         </ul>
       </div>

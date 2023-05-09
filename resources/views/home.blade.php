@@ -3,7 +3,7 @@
 
 {{-- content --}}
 @section('content')
-  <main>
+  <main class="home">
     <div class="container">
       <div class="tag">
         <h3>Current Series</h3>
